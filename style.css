@@ -1,0 +1,23 @@
+@import url('menu.css');
+
+:root{
+    --var-cor-fundo: #0F172A;
+    --var-cor-fundo-card: #1E293B;
+    --var-cor-texto-principal: #F1F5F9;
+    --var-cor-texto-secundario: #94A3B8;
+    --var-cor-area-resultado: #0F172A;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: var(--var-cor-texto-secundario);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: var(--var-cor-fundo);
+}
