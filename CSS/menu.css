@@ -3,6 +3,7 @@ header{
     background-color: var(--var-cor-fundo-card);
     display: flex;
     justify-content: center;
+    /* height: 100%; */
     /* display: none; */
 }
 .nav-item{
@@ -25,6 +26,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 .item-nav{
     background-color: var(--var-cor-fundo-card);
