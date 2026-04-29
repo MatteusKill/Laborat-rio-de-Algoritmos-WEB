@@ -10,6 +10,7 @@ main{
     height: 30px;
     align-items: center;
     padding: 5px;
+    text-align: center;
 }
 .voltar-pagina:hover{
     cursor: pointer;

@@ -2,6 +2,7 @@
 
 @import url('menu.css');
 @import url('conteudo.css');
+@import url('footer.css');
 
 :root{
     --var-cor-fundo: #0F172A;
