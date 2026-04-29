@@ -17,8 +17,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-a{
-    text-decoration: none;
+li {
     color: var(--var-cor-texto-secundario);
 }
 body{
@@ -26,5 +25,5 @@ body{
 }
 
 .conteudo-exercicio{
-    /* display: none; */
+    display: none;
 }

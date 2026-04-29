@@ -3,7 +3,7 @@ header{
     background-color: var(--var-cor-fundo-card);
     display: flex;
     justify-content: center;
-    display: none;
+    /* display: none; */
 }
 .nav-item{
     border-bottom: 3px solid #30353d;
