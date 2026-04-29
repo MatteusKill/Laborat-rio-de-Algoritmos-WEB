@@ -12,40 +12,172 @@
             <h1 class="titulo-page">Algoritmos JS</h1>
             <ul class="list-item">
                 <li class="item-nav">
-                    <a href="">Ex.11 - Verificar Idade</a>
+                    <a href="" onclick="exercicio11()">Ex.11 - Verificar Idade</a>
                 </li>
                 <li class="item-nav">
-                    <a href="">Ex.12 - Positivo ou Negativo</a>
+                    <a href="" onclick="exercicio12()">Ex.12 - Positivo ou Negativo</a>
                 </li>
                 <li class="item-nav">
-                    <a href="">Ex.13 - Par ou Ímpar</a>
+                    <a href="" onclick="exercicio13()">Ex.13 - Par ou Ímpar</a>
                 </li>
                 <li class="item-nav">
-                    <a href="">Ex.14 - Banco</a>
+                    <a href="" onclick="exercicio14()">Ex.14 - Banco</a>
                 </li>
                 <li class="item-nav">
-                    <a href="">Ex.15 - Feminino ou Masculino</a>
+                    <a href="" onclick="exercicio15()">Ex.15 - Feminino ou Masculino</a>
                 </li>
                 <li class="item-nav">
-                    <a href="">Ex.16 - Maior entre 3 números</a>
+                    <a href="" onclick="exercicio16()">Ex.16 - Maior entre 3 números</a>
                 </li>
                 <li class="item-nav">
-                    <a href="">Ex.17 - Organização Tabajara</a>
+                    <a href="" onclick="exercicio17()">Ex.17 - Organização Tabajara</a>
                 </li>
                 <li class="item-nav">
-                    <a href="">Ex.18 - Folha de Pagamento</a>
+                    <a href="" onclick="exercicio18()">Ex.18 - Folha de Pagamento</a>
                 </li>
                 <li class="item-nav">
-                    <a href="">Ex.19 - Triângulo</a>
+                    <a href="" onclick="exercicio19()">Ex.19 - Triângulo</a>
                 </li>
                 <li class="item-nav">
-                    <a href="">Ex.20 - Verificar Ano Bissexto</a>
+                    <a href="" onclick="exercicio20()">Ex.20 - Verificar Ano Bissexto</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        
+
+        <div class="voltar-pagina">
+            <- Voltar
+        </div>
+
+        <section class="conteudo-exercicio" id="ex11">
+            <p class="enunciado">Ex 11 - Faça um algoritmo que o usuário possa digitar o seu nome e a sua idade. Utilizando a tabela fornecida, verifique em qual item se enquadra a idade da pessoa e escreva a mensagem: "(nome) está com (idade) e pela tabela é considerado um (tipo)"</p>
+            <div class="inputs">
+                <input type="text" name="" class="entrada" id="nome11" placeholder="Digite o seu nome aqui" required>
+                <input type="number" name="" class="entrada" id="idade11" placeholder="Digite sua idade aqui" required>
+            </div>
+            <button class="botao-executar-exercicio" onclick="executarExercicio11()">Verificar</button>
+            <div class="resultado" id="res"></div>
+        </section>
+
+        <div class="voltar-pagina">
+            <- Voltar
+        </div>
+
+        <section class="conteudo-exercicio" id="ex12">
+            <p class="enunciado">Ex 12 - Faça um algoritmo que verifique se o número digitado é positivo ou negativo</p>
+            <div class="inputs">
+                <input type="number" name="" class="entrada" id="numeroDigitado12" placeholder="Digite um número aqui" required>
+            </div>
+            <button class="botao-executar-exercicio" onclick="executarExercicio12()">Verificar</button>
+            <div class="resultado" id="res"></div>
+        </section>
+
+        <div class="voltar-pagina">
+            <- Voltar
+        </div>
+        <section class="conteudo-exercicio" id="ex13">
+            <p class="enunciado">Ex 13 - Faça um algoritmo que leia o número digitado e verifique se é par ou ímpar</p>
+            <div class="inputs">
+                <input type="number" name="" class="entrada" id="numeroDigitado13" placeholder="Digite um número aqui" required>
+            </div>
+            <button class="botao-executar-exercicio" onclick="executarExercicio13()">Verificar</button>
+            <div class="resultado" id="res"></div>
+
+        </section>
+
+        <div class="voltar-pagina">
+            <- Voltar
+        </div>
+        <section class="conteudo-exercicio" id="ex14">
+            <p class="enunciado">Ex 14 - Faça um algoritmo para ler: número da conta do cliente, saldo, débito e crédito. Após, calcule e escreva o saldo atual (saldo atual = saldo - débito + crédito). Também teste se o saldo atual for maior ou igual a zero, escrevendo a mensagem "Saldo Positivo", senão, "Saldo Negativo".</p>
+            <div class="inputs">
+                <input type="number" name="" class="entrada" id="numeroConta14" placeholder="Digite o número da sua conta" required>
+                <input type="number" name="" class="entrada" id="saldoConta14" placeholder="Digite o saldo da sua conta" required>
+                <input type="number" name="" class="entrada" id="valorDebito14" placeholder="Digite o valor para depositar" required>
+                <input type="number" name="" class="entrada" id="valorCredito14" placeholder="Digite o valor para sacar" required>
+            </div>
+            <button class="botao-executar-exercicio" onclick="executarExercicio14()">Verificar</button>
+            <div class="resultado" id="res"></div>
+        </section>
+
+        <div class="voltar-pagina">
+            <- Voltar
+        </div>
+        <section class="conteudo-exercicio" id="ex15">
+            <p class="enunciado">Ex 15 - Faça um programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escreva: F - Feminino, M - Masculino ou Sexo Inválido.</p>
+            <div class="inputs">
+                <input type="text" name="" class="entrada" id="letraDigitada15" placeholder="Digite uma letra aqui" required>
+            </div>
+            <button class="botao-executar-exercicio" onclick="executarExercicio15()">Verificar</button>
+            <div class="resultado" id="res"></div>
+        </section>
+
+        <div class="voltar-pagina">
+            <- Voltar
+        </div>
+        <section class="conteudo-exercicio" id="ex16">
+            <p class="enunciado">Ex 16 - Faça um programa que leia três números e mostre o maior e o menor deles.</p>
+            <div class="inputs">
+                <input type="number" name="" class="entrada" id="primeiroNumero16" placeholder="Digite um numero" required>
+                <input type="number" name="" class="entrada" id="segundoNumero16" placeholder="Digite um numero" required>
+                <input type="number" name="" class="entrada" id="terceiroNumero16" placeholder="Digite um numero" required>
+            </div>
+            <button class="botao-executar-exercicio" onclick="executarExercicio16()">Verificar</button>
+            <div class="resultado" id="res"></div>
+        </section>
+
+        <div class="voltar-pagina">
+            <- Voltar
+        </div>
+        <section class="conteudo-exercicio" id="ex17">
+            <p class="enunciado">Ex 17 - Faça um programa que recebe o salário de um colaborador e reajuste-o seguindo os critérios das Organizações Tabajara (aumentos de 20%, 15%, 10% ou 5% baseados em faixas salariais).</p>
+            <div class="inputs">
+                <input type="number" name="" class="entrada" id="salario17" placeholder="Digite o seu salário aqui" required>
+            </div>
+            <button class="botao-executar-exercicio" onclick="executarExercicio17()">Verificar</button>
+            <div class="resultado" id="res"></div>
+        </section>
+
+        <div class="voltar-pagina">
+            <- Voltar
+        </div>
+        <section class="conteudo-exercicio" id="ex18">
+            <p class="enunciado">Ex 18 - Faça um programa para o cálculo de uma folha de pagamento, com descontos de Imposto de Renda (conforme tabela), 3% para o Sindicato e FGTS (11%, não descontado). O programa deve pedir o valor da hora e a quantidade de horas trabalhadas.</p>
+            <div class="inputs">
+                <input type="number" name="" class="entrada" id="valorHora18" placeholder="Digite o valor da sua hora de trabalho" required>
+                <input type="number" name="" class="entrada" id="qntdHora18" placeholder="Digite a quantidade de horas trabalhada/mes" required>
+            </div>
+            <button class="botao-executar-exercicio" onclick="executarExercicio18()">Verificar</button>
+            <div class="resultado" id="res"></div>
+        </section>
+
+        <div class="voltar-pagina">
+            <- Voltar
+        </div>
+        <section class="conteudo-exercicio" id="ex19">
+            <p class="enunciado">Ex 19 - Faça um programa que peça os 3 lados de um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno.</p>
+            <div class="inputs">
+                <input type="number" name="" class="entrada" id="primeiroLado19" placeholder="Digite o valor do lado 1" required>
+                <input type="number" name="" class="entrada" id="segundoLado19" placeholder="Digite o valor do lado 2" required>
+                <input type="number" name="" class="entrada" id="terceiroLado19" placeholder="Digite o valor do lado 3" required>
+            </div>
+            <button class="botao-executar-exercicio" onclick="executarExercicio19()">Verificar</button>
+            <div class="resultado" id="res"></div>
+        </section>
+
+        <div class="voltar-pagina">
+            <- Voltar
+        </div>
+        <section class="conteudo-exercicio" id="ex20">
+            <p class="enunciado">Ex 20 - Faça um programa que peça um número correspondente a um determinado ano e em seguida informe se este é bissexto.</p>
+            <div class="inputs">
+                <input type="number" name="" class="entrada" id="numeroDigitado20" placeholder="Digite o numero aqui" required>
+            </div>
+            <button class="botao-executar-exercicio" onclick="executarExercicio20()">Verificar</button>
+            <div class="resultado" id="res"></div>
+        </section>
+
     </main>
 </body>
 </html>

@@ -1,12 +1,16 @@
 header{
-    display: flex;
     width: 100%;
     background-color: var(--var-cor-fundo-card);
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    display: none;
 }
 .nav-item{
-    width: 100%;
     border-bottom: 3px solid #30353d;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
 }
 .titulo-page{
     color: var(--var-cor-texto-principal);
@@ -16,19 +20,21 @@ header{
     padding: 1.5%;
 }
 .list-item{
-    align-items: center;
-    display: flex;
     list-style: none;
-    gap: 50px;
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .item-nav{
     background-color: var(--var-cor-fundo-card);
     border-radius: 10px ;
     border: 2px solid rgb(61, 59, 59);
-    padding: 8px;
-    flex-wrap: wrap;
+    padding: 10px;
+    margin: 6px 0;
+    width: 500px;
     font-size: 15px;
+    max-width: 90%;
 }
 .item-nav:hover{
     cursor: pointer;
