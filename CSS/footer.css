@@ -14,4 +14,11 @@ footer{
     color: var(--color-neutra-2);
     font-weight: 500;
     font-size: 18px;
+
+}
+.social-media-buttons{
+    display: flex;
+}
+.icone-social{
+    font-size: 35px;
 }
