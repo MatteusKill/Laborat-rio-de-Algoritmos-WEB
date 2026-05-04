@@ -56,3 +56,13 @@ main{
     padding: 5px;
     border: 2px solid red;
 }
+.resultado-terminal {
+    font-family: monospace;
+    background-color: var(--var-cor-fundo-card); /* Usando suas variáveis */
+    color: var(--var-cor-texto-principal);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--var-cor-texto-secundario);
+    margin-top: 10px;
+    overflow-x: auto; /* Garante que não quebre em telas pequenas */
+}
